@@ -1,0 +1,89 @@
+a {
+    text-decoration:none ;
+    font-size: 1.5rem;
+    color: brown;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+a:visited {
+    background-color: red;
+}
+
+input {
+    border: 5px solid transparent;
+}
+
+input:focus {
+    outline: none;
+    border: 5px solid green;
+}
+
+input:disabled {
+    background-color: red;
+}
+
+/*.padre {
+}*/
+
+.hijo{
+    font-size: 2rem;
+}
+
+/*.hijo{
+    font-size: 2rem;
+}
+
+.padre .hijo:first-child{
+    color: blue;
+}
+
+.padre .hijo:last-child{
+    color: red;
+}
+
+.padre .hijo:nth-child(even) {
+    color: red;
+}
+
+padre .hijo:nth-child(3) {
+    color: red;
+} */
+
+.padre .hijo.hijo:nth-child(5n) {
+    color: red;
+}
+
+section p {
+    font-size: 3rem;
+}
+
+/* pseudo elementos (before , after) */
+
+section p::first-letter{
+    color: red;
+    font-size: 5rem;
+    background-color: blue;
+    text-transform: lowercase;
+}
+
+section p::first-line {
+    color: blue;
+}
+
+.pseudo::before {
+    content: "hola";
+    font-size: 3rem;
+    color: red;
+}
+
+/* .pseudo::after {
+    content: "adios";
+    font-size: 3rem;
+    color: blue;
+}
